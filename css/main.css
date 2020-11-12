@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+* {
+  font-family: 'Inter', sans-serif;
+  font-size: 40px;
+  text-align: center;
+}
+
+#count-display {
+  font-family: 'Helvetica', sans-serif;
+  font-size: 70px;
+  font-weight: bold;
+}
+
+#div-controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+input, button {
+  height: 80px;
+  box-sizing: border-box;
+  border: solid 4px #A9A9A9;
+  border-radius: 8px;
+  outline: none;
+}
+
+input {
+  width: 140px;
+  margin: 0 24px;
+}
+
+button {
+  width: 80px;
+  background-color: #A9A9A9;
+  color: white;
+}
+
+button:hover {
+  background-color: white;
+  color: #A9A9A9;
+}
